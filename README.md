@@ -45,6 +45,7 @@ There are several different network architectures in modelFiles2.py. Basic archi
 |     Exponential decay rate 2             |     0.999                          |
 |     Decay every ‘n’ epochs               |     25                             |
 
+![Basic Architectures](https://github.com/harish-raviprakash/Deep-Learning-for-ECoG/blob/master/at_ar.JPG)
 
 __Running the python code__
 
