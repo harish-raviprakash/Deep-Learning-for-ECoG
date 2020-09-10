@@ -10,6 +10,7 @@ __How to interpret matlab codes__
 
 Data is assumed to be of dimensions M×N with M = the number of channels and N = number of datapoints.
 The paradigm used is 30seconds control and 30seconds active task. 
+
 Step 1: Run extractData.m
 
 This will load each subject’s data (Please provide the path) and call createSlidingActiveTime.m
@@ -22,7 +23,13 @@ This will assign block labels for each block in the paradigm, where a block is 3
 
 __How to interpret python codes__
 
-There are several different network architectures in modelFiles2. Basic architecture:
+train.py includes code to train the model and plot the training curves.
+
+loadData.py includes functions to read the data and reshape them for the deep learning architectures.
+
+customLayers2.py includes functions from [Keras](https://faroit.com/keras-docs/2.1.5/layers/recurrent/)
+
+There are several different network architectures in modelFiles2.py. Basic architecture:
 
 |     Layer                                |     Filter   Size                  |
 |------------------------------------------|------------------------------------|
